@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('127.0.0.1.','root','science2012', 'tutorials');
+$db = mysqli_connect('127.0.0.1.','root','******', 'tutorials');
 if(mysqli_connect_errno()){
   echo 'Data base connection failed folowing errors:'.mysqli_connect_error();
   die();
